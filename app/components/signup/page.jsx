@@ -5,7 +5,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { signupuser } from "../redux/authSlice";
 import { useState } from "react";
 import Dashboard from "../Dashboard/page";
+
+
 const Signup = () => {
+ 
   const [email, setEmail] = useState("");
   const [ps, setps] = useState("");
 

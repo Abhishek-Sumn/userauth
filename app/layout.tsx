@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-
         <Provider store={store}>
           <PersistGate persistor={persistor} loading={null}>
             <html lang="en">
